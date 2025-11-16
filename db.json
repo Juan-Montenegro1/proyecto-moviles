@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Aprender Flutter",
+      "description": "Estudiar los conceptos fundamentales de Flutter y Dart",
+      "completed": false,
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Implementar API",
+      "description": "Crear una API REST para la aplicación de tareas",
+      "completed": false,
+      "updatedAt": "2024-01-15T11:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Configurar SQLite",
+      "description": "Implementar persistencia local con sqflite",
+      "completed": true,
+      "updatedAt": "2024-01-15T09:30:00Z"
+    }
+  ]
+}
