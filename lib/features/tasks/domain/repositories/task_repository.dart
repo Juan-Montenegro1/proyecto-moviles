@@ -1,0 +1,10 @@
+import 'package:taller_flutter/features/tasks/domain/entities/task.dart';
+
+/// Abstract repository for task operations
+abstract class TaskRepository {
+  Future<List<Task>> getTasks();
+  Future<Task> getTaskById(int id);
+  Future<Task> createTask(Task task);
+  Future<Task> updateTask(Task task);
+  Future<void> deleteTask(int id);
+}
